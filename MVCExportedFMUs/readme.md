@@ -1,6 +1,11 @@
 # List of FMU versions in anti-chronological order
+## 10th of Jan. 2023
+- MVC2023_Hash_47c69bf5.fmu changed battey voltage signal from OCV to the acutual measured value in the circuit.    
+ Added some additional signals to the batterybus and rexbus 
+## 3rd of Jan. 2023
+- MVC2023_Hash_ddadadfe.fmu revised fuel cell model with new consumption table and changed Modelica model.
 ## 8th of Dec. 2022
-- MVC2023_Hash_9bf0e383.fmu fixed division by zero error in the lateral controller
+- MVC2023_Hash_9bf0e383.fmu fixed division by zero error in the lateral controller.
 ## 1st of Dec. 2022
 - MVC2023_Hash_3eb78153.fmu fixed the tyre losses output. They are now activated by default and part of the overall losses.
 ## 25th of Oct. 2022
@@ -12,4 +17,4 @@
 <img src="..\media\MVC2023_Hash_45a0ea85.png" style="width:3in;height:3in" />
 
 ## License
-Copyright © 2022 DLR & UCM. The code is released under the [CC BY-NC 4.0 license](https://creativecommons.org/licenses/by-nc/4.0/legalcode). Link to [short summary of CC BY-NC 4.0 license](https://creativecommons.org/licenses/by-nc/4.0/)
+Copyright © 2022-2023 DLR & UCM. The code is released under the [CC BY-NC 4.0 license](https://creativecommons.org/licenses/by-nc/4.0/legalcode). Link to [short summary of CC BY-NC 4.0 license](https://creativecommons.org/licenses/by-nc/4.0/)
